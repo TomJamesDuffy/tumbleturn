@@ -1,3 +1,11 @@
+:root {
+  --black: #000000;
+  --green: #40ad48;
+  --white: #ffffff;
+  --red: #ff0000;
+  --paleBlue: #93b9f6;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +21,16 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.BoxShadow {
+  box-shadow: 5px 5px var(--black);
+  border: 3px var(--black) solid;
+  border-radius: 5px;
+}
+
+p,
+input,
+div {
+  font-family: 'Comic Neue', cursive;
 }
