@@ -28,6 +28,9 @@ export default function Panel({ panel }: { panel: any }) {
             ),
           )}
       </div>
+      <div className={classNames(styles.DiceContainer)}>
+        <img alt="Randomize" src="/dice.png" className={classNames(styles.Dice)} />
+      </div>
     </div>
   );
 }

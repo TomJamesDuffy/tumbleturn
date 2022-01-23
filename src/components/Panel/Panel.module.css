@@ -1,6 +1,7 @@
 .Panel {
   padding: 10px;
   display: flex;
+  position: relative;
   justify-content: center;
   min-height: 50px;
   gap: 50px;
@@ -29,4 +30,18 @@
 
 .Time {
   min-width: 50px;
+}
+
+.Dice {
+  position: absolute;
+  height: 30px;
+}
+
+.DiceContainer {
+  position: absolute;
+  height: 30px;
+  width: 35px;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
 }
