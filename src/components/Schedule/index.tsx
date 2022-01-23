@@ -5,16 +5,18 @@ import Set from '../Set';
 
 import styles from './Schedule.module.css';
 
-export default function Schedule({ session }) {
+export default function Schedule({ session }: { session: any }) {
+  interface setType {
+    panels: any;
+    backgroundColor: string;
+    time: string;
+  }
   return (
     <div className={classNames(styles.Schedule, 'BoxShadow')}>
       {session
-        && session.map((set) => {
-          const { panels, backgroundColor } = set || {};
-          return (
-            <Set panels={panels} backgroundColor={backgroundColor} />
-          );
-        })}
+        && session.map(({ panels, backgroundColor }: setType) => (
+          <Set panels={panels} backgroundColor={backgroundColor} />
+        ))}
     </div>
   );
 }
