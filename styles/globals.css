@@ -29,6 +29,12 @@ a {
   border-radius: 5px;
 }
 
+.BoxShadowLite {
+  box-shadow: 3px 3px var(--black);
+  border: 1px var(--black) solid;
+  border-radius: 3px;
+}
+
 p,
 input,
 div {

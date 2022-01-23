@@ -1,0 +1,32 @@
+.Panel {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  gap: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+.Intervals {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.Description {
+  min-width: 200px;
+}
+
+.Intensity {
+  min-width: 40px;
+}
+
+.TotalDistance {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.Time {
+  min-width: 50px;
+}
